@@ -22,7 +22,7 @@ body {
 
 .card-left {
 	width: 20%;
-    margin-right: 1rem;
+	margin-right: 1rem;
 	border-radius: 1rem;
 	overflow: hidden;
 	background-color: hsl(235, 46%, 20%);
@@ -75,32 +75,48 @@ body {
 	width: 50rem;
 }
 
-.card-right_conatiner {
-	background-color: wheat;
+.card-right_bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	height: 80%;
+    padding: 2rem;
+	background-color: hsl(235, 46%, 20%);
+    color: white;
+	border-radius: 1rem;
+	z-index: 1;
 }
 
-.card-right_bottom {
-    height: 80%;
-    background-color: hsl(235, 46%, 20%);;
-    z-index: 1;
-    border-radius: 1rem;
-    
+
+.hours {
+    font-size: 3rem;
 }
+
+
 
 .card-right_top {
-    height: 20%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 1rem;
- 
+	height: 2.7rem;
+	position: relative;
+	overflow: hidden;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	background-color: wheat;
 }
 .icon {
-    position: absolute;
-    width: 4rem;
-    right: 0;
-    z-index: 0;
+	position: absolute;
+	width: 4rem;
+	right: 0;
+	z-index: 0;
 }
 
+.icon-dots {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 2rem;
+    padding-top: 2.4rem;
+}
 
 footer {
 	position: absolute;
