@@ -26,14 +26,16 @@ body {
     width: 25%;
     border-radius: 1rem;
     overflow: hidden;
+    background-color:  hsl(235, 46%, 20%);
 }
 
 .card-left_top {
     height: 70%;
     background-color:  hsl(235, 45%, 61%);
+    border-radius: 1rem;
 }
 .card-left_bottom {
-    background-color:  hsl(235, 46%, 20%);
+    height: 30%;
 }
 
 .card-right {
