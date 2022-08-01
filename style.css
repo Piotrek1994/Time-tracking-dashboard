@@ -16,12 +16,12 @@ body {
 
 .card-container {
 	display: flex;
-	width: 65rem;
-	height: 32rem;
+	width: 60rem;
+	height: 30rem;
 }
 
 .card-left {
-	width: 25%;
+	width: 20%;
 	border-radius: 1rem;
 	overflow: hidden;
 	background-color: hsl(235, 46%, 20%);
@@ -55,27 +55,30 @@ body {
 }
 
 .card-left_bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2rem;
 	height: 30%;
-    color: rgba(255, 255, 255, 0.436);
+	color: rgba(255, 255, 255, 0.436);
 }
 .weekly {
-    color: white;
+	color: white;
 }
 
 .card-right {
-    display: flex;
-    flex-wrap: wrap;
-	width: 75%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: inherit;
+	width: 80%;
 }
 
 .card-right_conatiner {
-    width: 12rem;
-    height: 12rem;
-    background-color: wheat;
+	width: 90%;
+	height: 90%;
+	background-color: wheat;
+	justify-self: center;
+	align-self: center;
 }
 
 footer {
