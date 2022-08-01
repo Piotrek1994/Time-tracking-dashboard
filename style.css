@@ -19,15 +19,21 @@ body {
     width: 65rem;
     height: 35rem;
     background-color: wheat;
+    
 }
 
 .card-left {
     width: 25%;
-    
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .card-left_top {
+    height: 70%;
     background-color:  hsl(235, 45%, 61%);
+}
+.card-left_bottom {
+    background-color:  hsl(235, 46%, 20%);
 }
 
 .card-right {
