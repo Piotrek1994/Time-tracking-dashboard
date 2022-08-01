@@ -69,16 +69,16 @@ body {
 .card-right {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	align-items: inherit;
 	width: 80%;
 }
 
 .card-right_conatiner {
-	width: 90%;
-	height: 90%;
+	width: 14rem;
+	height: 14rem;
 	background-color: wheat;
 	justify-self: center;
-	align-self: center;
+    align-self: center;
+
 }
 
 footer {
