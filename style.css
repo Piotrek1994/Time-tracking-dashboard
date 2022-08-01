@@ -14,7 +14,25 @@ body {
 	font-family: 'DM Sans', sans-serif;
 }
 
+.card-container {
+    display: flex;
+    width: 65rem;
+    height: 35rem;
+    background-color: wheat;
+}
 
+.card-left {
+    width: 25%;
+    
+}
+
+.card-left_top {
+    background-color:  hsl(235, 45%, 61%);
+}
+
+.card-right {
+    width: 75%;
+}
 
 
 
